@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="main.css">
+<head>
+<body>
+   <nav>
+    <div class="container"></div>
+    <div class="logo">
+        <p class="text">Portfolio</p>
+    </div>
+    <hr>
+    <p class="link"><a></a></p>
+    <div class="nav-con">
+    <div class="menu1">
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+     </ul>
+    </div>
+        </div>
+    </div>
+</nav>
+   <section class="pao">
+    <div class="container">
+        <div class="pao-con">
+            <div class="pao-info">
+                <h3>This is my portfolio</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non laborum enim quibusdam aliquid dolorum minus, inventore exercitationem ipsum veritatis pariatur adipisci earum unde, asperiores praesentium quo eos, dicta repellendus alias sint. Dolores, placeat voluptates. Architecto, laboriosam rem exercitationem minus quas provident nostrum cumque dolorum pariatur quo ex at animi quod?</p>
+                <a href="#" class="pao-btn">Learn more</a><br>
+            </div>
+            <div class="pao-img">
+                <img src="IMG_9829.JPG" style="width: 50%; height: 106%; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="brick">
+    <div class="container">
+        <div class="brick-title">
+            <h2>Our block</h2>
+        </div>
+        <div class="brick-con">
+            <div class="brick-item">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <div class="slide first">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="slide">
+                    <img src="pic/NUS.jpg">
+                </div>
+                <div class="slide">
+                    <img src="pic/TECHNIC.jpg">
+                </div>
+                <div class="slide">
+                    <img src="pic/sci.jpg">
+                </div>
+                <div class="slide">
+                    <img src="pic/Yota.jpg">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter >5){
+                        counter = 1;
+                    }
+                },5000);
+            </script>
+        </div>
+        </div>
+    </div>
+
+   </section>
+
+   <section class="code">
+    <div class="container">
+        <div class="code-title">
+            <h2>ACTIVITY</h2>
+        </div>
+        <div class="code-con">
+            <div class="code-item">
+                <input type="radio" name="rio-btn" id="rio1">
+                <input type="radio" name="rio-btn" id="rio2">
+                <input type="radio" name="rio-btn" id="rio3">
+                <input type="radio" name="rio-btn" id="rio4">
+                <input type="radio" name="rio-btn" id="rio5">
+                <style>
+                    img {
+                        width: 100%;
+                    }
+                </style>
+                <div class="point first">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="point">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="point">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="point">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="point">
+                    <img src="pic/POSN 1.jpg">
+                </div>
+                <div class="navigation-automatic">
+                    <div class="automatic-btn1"></div>
+                    <div class="automatic-btn2"></div>
+                    <div class="automatic-btn3"></div>
+                    <div class="automatic-btn4"></div>
+                    <div class="automatic-btn5"></div>
+                </div>
+            </div>
+                <div class="navigation-hand">
+                    <label for="rio1" class="hand-btn"></label>
+                    <label for="rio2" class="hand-btn"></label>
+                    <label for="rio3" class="hand-btn"></label>
+                    <label for="rio4" class="hand-btn"></label>
+                    <label for="rio5" class="hand-btn"></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var count = 1;
+                setInterval(function(){
+                    document.getElementById('rio' + count).checked = true;
+                    count++;
+                    if(count >5){
+                        count = 1;
+                    }
+                },5000);
+            </script>
+        </div>
+        </div>
+    </div>
+
+   </section>
+   
+   <section class="room">
+    <div class="container">
+        <div class="room-title">
+            <h2>Contact</h2>
+        </div>
+        <div class="room-con">
+        <div class="room-item">
+            <img src="pic/Facebook_Logo_(2019).png.webp">
+            <h3>Facebook</h3>
+            <a href="#" class="room-btn" onclick="location.href='https://web.facebook.com/chaiyakorn.geerati.3/?locale=th_TH'">GO TO</a>
+        </div>
+        <div class="room-item">
+            <img src="pic/Instagram_logo_2016.svg.webp">
+            <h3>Instagram</h3>
+            <a href="#" class="room-btn" onclick="location.href='https://www.instagram.com/zaza_pao_61/'">GO TO</a>
+        </div>
+        <div class="room-item">
+            <img src="pic/LINE_logo.svg.png">
+            <h3>Line-ID</h3>
+            <a href="#" class="room-btn" onclick="location.href='https://line.me/ti/p/WP7kbzzIXk'">SHOW</a>
+        </div>
+    </div>
+
+   </section>
+</body>
+</html>
