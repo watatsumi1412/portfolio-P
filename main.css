@@ -431,6 +431,7 @@ nav {
     justify-content: center;
     grid-template-columns: 0.5fr;
     column-gap: 2rem;
+	width: 100%
     color: aliceblue;
 }
 
