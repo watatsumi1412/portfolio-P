@@ -171,9 +171,8 @@ nav {
 
 
 .slide {
-    width:100%;
+    width:2000px;
     transition: 1s;
-    object-fit: cover;
 }
 
 
