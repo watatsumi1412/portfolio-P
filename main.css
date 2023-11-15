@@ -173,6 +173,7 @@ nav {
 .slide {
     width:100%;
     transition: 1s;
+    object-fit: cover;
 }
 
 
