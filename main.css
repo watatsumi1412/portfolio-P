@@ -427,15 +427,6 @@ nav {
     height: 500px;
 }
 
-.room-con {
-    display: grid;
-    width: 100%;
-    justify-content: center;
-    grid-template-columns: 0.5fr;
-    column-gap: 2rem;
-    color: aliceblue;
-}
-
 .room-title {
     margin-bottom:0rem;
     margin-top: 0rem;
