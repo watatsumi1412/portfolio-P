@@ -171,7 +171,7 @@ nav {
 
 
 .slide {
-    width:2000px;
+    width:100%;
     transition: 1s;
 }
 
@@ -445,25 +445,4 @@ nav {
     margin-top: -10rem;
 }
 
-.puom-btn{
-    font-size: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 0rem;
-    background-color: rgb(26, 20, 37);
-    color: #fff;
-    text-decoration: none;
-}
-
-.puom-btn a{
-    display: inline-block;
-    font-size: 25px;
-    background-color: darkkhaki;
-    border-radius: 15px;
-    display: inline-block;
-    color: #fff;
-    padding: 2rem;
-    text-decoration: none;
-    width: 125px;
-}
 
