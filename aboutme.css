@@ -1,3 +1,51 @@
+body {
+    background-color: #000000; /* Darker background color */
+    margin: 0;
+    overflow-x: hidden;
+    --script: currentSlide(1)
+}
+
+.topPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a41;
+}
+
+.TopTitle {
+    font-family: 'Playfair Display', serif;
+    background-color: #343a41;
+    color:rgb(249, 167, 61);
+    text-align: left;
+    padding: 10px 10px 10px 5vmax;
+    font-size: max(2.5vmax, 30px);
+    font-weight: bold;
+    margin: 0;
+    position: sticky;
+}
+
+.topButton {
+  font-family: 'Kanit', sans-serif;
+  background-color: #343a41;
+  border: none;
+  color: white;
+  padding: 20px 1vmax;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: max(1.2vw, 13px);
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.topButton:hover {
+  background-color: rgb(249, 167, 61);
+}
+
+.vl {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 60px;
+  }
 /* * {
     margin: 0;
     padding: 0;
