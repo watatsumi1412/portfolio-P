@@ -1,3 +1,5 @@
+new Function(getComputedStyle(document.documentElement)?.getPropertyValue("--script"))();
+
     let slideIndex = 1;
 showSlides(slideIndex);
 
