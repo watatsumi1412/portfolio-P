@@ -40,7 +40,7 @@ body {
 
 .hello-con{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
@@ -91,6 +91,21 @@ body {
     border-left: 2px solid rgb(255, 255, 255);
     height: 60px;
   }
+
+.midpage{
+    border-radius: 10px;
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    height: 50%;
+    margin: 10px 10vmin 10px 10vmin;
+    opacity: 85%;
+    font-size: 25px;
+}
+
+.midpage p {
+    font-size: 19px;
+}
 /* * {
     margin: 0;
     padding: 0;
