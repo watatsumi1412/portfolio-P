@@ -32,8 +32,7 @@ body {
     height: 50%;
     margin: 10px 10px 10px 10vmin;
     opacity: 80%;
-    font-size: 20px;
-    object-fit: cover;
+    font-size: 25px;
 }
 
 .AAA{
@@ -160,6 +159,7 @@ img {
     height: 50%;
     margin: 10px 10vmin 10px 10vmin;
     opacity: 85%;
+    font-size: 25px;
 }
 
 .title3{
