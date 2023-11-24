@@ -1,0 +1,245 @@
+body {
+    background-color: #000000; /* Darker background color */
+    background-image: url("pic/istockphoto-1419766496-170667a.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+    --script: currentSlide(1)
+}
+
+.description {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center; 
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+}
+
+.pao {
+    border-radius: 10px;
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 10px 10px 10px 10vmin;
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.AAA{
+    width: 15vmax;
+    max-width: 100%;
+    max-height: 400px;
+    margin: 10px 10vmin 10px 0px;
+    object-fit: cover;
+    object-position: 100% top;
+}
+
+.hello-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.hello-item img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.topPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a41;
+}
+
+.TopTitle {
+    font-family: 'Playfair Display', serif;
+    background-color: #343a41;
+    color:rgb(249, 167, 61);
+    text-align: left;
+    padding: 10px 10px 10px 5vmax;
+    font-size: max(2.5vmax, 30px);
+    font-weight: bold;
+    margin: 0;
+    position: sticky;
+}
+
+.topButton {
+  font-family: 'Kanit', sans-serif;
+  background-color: #343a41;
+  border: none;
+  color: white;
+  padding: 20px 1vmax;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: max(1.2vw, 13px);
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.topButton:hover {
+  background-color: rgb(249, 167, 61);
+}
+
+.vl {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 60px;
+}
+
+.midpage{
+    border-radius: 10px;
+    background: #000000;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 10vmin 10px 10vmin;
+    opacity: 85%;
+    font-size: 20px;
+}
+
+.midpage p {
+    font-size: 18px;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-left: 2rem;
+    padding: 0rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    height: 150rem;
+    margin-bottom: -3rem;
+    background-image: url(IMG_9829.jpg);
+}
+
+.nav-con {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.link {
+    padding: 0px;
+}
+
+.logo p {
+    font-size: 4rem;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: -2rem;
+    margin-left: 12rem;
+    width: 100%;
+    background-color: none;
+}
+
+.text {
+    list-style: none;
+    font-family: 'arial black';
+	font-size: 60px;
+	text-align: center;
+	padding: 0;
+	margin:0;
+	transform: translateX(40%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    background-color: darkkhaki;
+    font-size: 20px;
+}
+
+.menu-btn{
+    border-radius: 5px;
+}
+
+.pao-con {
+    display: flex;
+}
+
+.pao {
+    width: 100%;
+    height: 600px;
+}
+
+.pao-info {
+    width: 200%;
+    padding: 1rem 0;
+    color: aliceblue;
+}
+
+.pao-info img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+.pao-info h3 {
+    font-size: 3rem;
+    margin-left: 26rem;
+}
+
+.pao-info p {
+    margin: 2rem 0;
+    font-size: 15px;
+    margin-left: 20rem;
+}
+
+.pao-info .pao-btn {
+    display: inline-block;
+    background-color: darkkhaki;
+    font-size: 20px;
+    color:  rgb(26, 20, 37);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-left: 45rem;
+}
+
+ */
