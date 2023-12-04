@@ -131,6 +131,8 @@ body {
 
 .midpage p {
     font-size: 18px;
+    margin-left: 0 auto;
+    margin-right: o auto;
 }
 /* * {
     margin: 0;
