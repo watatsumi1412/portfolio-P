@@ -136,10 +136,11 @@ body {
     border-radius: 10px;
     background: #000000;
     color: #fff;
-    padding: 22px;
+    padding: 20px;
     margin: 10px 10vmin 10px 10vmin;
     opacity: 85%;
     font-size: 20px;
+    height: 100%;
 }
 
 .midpage p {
