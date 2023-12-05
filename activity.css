@@ -136,7 +136,7 @@ body {
     border-radius: 10px;
     background: #000000;
     color: #fff;
-    padding: 5px;
+    padding: 21px;
     margin: 10px 10vmin 10px 10vmin;
     opacity: 85%;
     font-size: 20px;
@@ -145,7 +145,7 @@ body {
 .midpage p {
     font-size: 18px;
     margin-left: 0 auto;
-    margin-right: o auto;
+    margin-right: 0 auto;
 }
 /* * {
     margin: 0;
