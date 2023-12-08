@@ -162,15 +162,29 @@ img {
     opacity: 80%;
 }
 
+
+
 .experience p,
 .experience h2 {
     color: #fa4616;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadein 4s linear forwards;
+    opacity: 0;
 }
+@-webkit-keyframes fadein {
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadein {
+    100% { opacity: 1; }
+  }
 
 .experience .timeline {
     position: relative;
     width: 100%;
 }
+
+
 
 .experience .timeline::after {
     content: '';
